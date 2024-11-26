@@ -190,31 +190,32 @@
 // function --> don't repeat yourself
 
 // using console.log inside function
+
 // function sum1(x,y){
 //    let sum = x+y
 //   console.log(sum)
 // }
-// let ans1 = sum1(3,4)
-// console.log(ans1)
+// sum1(3,4)
+
 
 // using return inside function
+
 // function sum2(x,y){
 //    let sum = x+y
 //    return sum;
 // }
-
 // let ans2= sum2(5,10)
 // console.log(ans2)
 
 
 // return se function ke bahar aa jate
 
-function hello(){
-  console.log('A')
-  return 100;
-  console.log('B')
-}
-hello();                // return ke baad function se bahar aa jate aage ka kuch nhi chalega
+// function hello(){
+//   console.log('A')
+//   return 100;
+//   console.log('B')
+// }
+// hello();                // return ke baad function se bahar aa jate aage ka kuch nhi chalega
 
 
 
