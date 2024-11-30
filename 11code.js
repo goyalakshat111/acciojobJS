@@ -147,9 +147,10 @@
 // arr.splice(2,0,25)
 // console.log(arr)
 
-// subArray :(Continuous array elements)  - use slice() 
+// subArray :(Contiguous part of an array)  - use slice() 
 // eg.  let arr = [1,2,3,4] then subarray would be [1],[2],[3],[1,2],[2,3],[3,4],[1,2,3],
 // [2,3,4],[1,2,3,4]
+
 //  a  k  s  h  a  t
 //  0  1  2  3  4  5
 // -6 -5 -4 -3 -2 -1
@@ -169,9 +170,34 @@
 // ques 
 // take a array, print all 3 letters subarray
 
+// let arr = ['a','c','c','i','o']
 // for(let i=0;i<arr.length-2;i++){
 //     console.log(arr.slice(i,i+3))
 // }
+
+// ques - take a array and print all subarray
+// let arr = [10,20,30,40]
+// all possible subarrays are :
+// 10                     (0,0)
+// 10 20                  (0,0) (0,1)
+// 10 20 30               (0,0) (0,1) (0,1,2)
+// 10 20 30 40            0 1 2 3
+// 20                     1
+// 20 30                  1 2
+// 20 30 40               1 2 3
+// 30                     2 
+// 30 40                  2 3
+// 40                     3
+// total subarrays are : n(n+1)/2  where n = size of array
+
+// let subArrays = []
+// for(let start =0;start<arr.length;start++){
+//     for(let end = start;end < arr.length;end++){
+//         let subArray = arr.slice(start,end+1)
+//         subArrays.push(subArray)
+//     }
+// }
+// console.log(subArrays)
 
 //indexOf(element, starting index[if not mention then default is 0])
 // lastIndexOf(element, piche se starting index )
@@ -203,17 +229,17 @@
 // console.log(array4)
 
 // spread - Uses a shorthand syntax within array literals
-
-let array1 = [1, 2, 3, 4];
-let array2 = [5, 6, 7, 8];
-// Use the spread operator to merge array1 and array2 into a third array
-let array3 = [...array1, ...array2];
-let array4 = [0,...array1,5]
-// Print all three arrays
-console.log("Array 1:", array1);
-console.log("Array 2:", array2);
-console.log("Concatenated Array 3 using Spread Operator:", array3);
-console.log(array4)
+ 
+// let array1 = [1, 2, 3, 4];
+// let array2 = [5, 6, 7, 8];
+// // Use the spread operator to merge array1 and array2 into a third array
+// let array3 = [...array1, ...array2];
+// let array4 = [0,...array1,5]
+// // Print all three arrays
+// console.log("Array 1:", array1);
+// console.log("Array 2:", array2);
+// console.log("Concatenated Array 3 using Spread Operator:", array3);
+// console.log(array4)
 
 
 
