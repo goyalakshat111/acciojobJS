@@ -1,4 +1,5 @@
 // 26 nov
+// https://www.educative.io/answers/what-is-the-temporal-dead-zone-in-javascript
 
 // scope
 // variable initialize inside braces = local variable
@@ -31,7 +32,7 @@
 
 // // console.log(a)         // error = a is not defined
 // // console.log(b)        // error = b is not defined
-// console.log(c)        // c is true global variable
+// console.log(c)        // 30 (c is true global variable)
 
 
 // ************************ Hoisting in JS *********************************
@@ -47,20 +48,20 @@
 // console.log(b)
 
 
-
+// In case of var, we can declare a variable again after it has been previously defined in same scope
 // var a =100
-// var a = 200                  // no error
+// var a = 200       // no error
 
 
 
-// // console.log(a)               // error - a is not defined
+// // console.log(a)               // error - a is not defined because var has function scope
 // function test(){
 //     console.log(a)    // undefined
 //     var a = 200
 //     console.log(a)    // 200
 // }
 // test()
-// // console.log(a)          // error - a is not defined
+// // console.log(a)          // error - a is not defined because var has function scope
 
 
 // Hoisting in let
@@ -84,8 +85,8 @@
 //         console.log(age)
 //     }
 
-//     let age =10
 //     display()
+//      let age =10
 // }
 // hello()                          // can't acess age before initialization
 
@@ -145,10 +146,10 @@
 
 // find largest between a,b,c
 
-let a=100
-let b =200
-let c =30
-let ans =a>b?(a>c?a:c):(b>c?b:c)
-console.log(ans)
+// let a=100
+// let b =200
+// let c =30
+// let ans =a>b?(a>c?a:c):(b>c?b:c)
+// console.log(ans)
 
 
