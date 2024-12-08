@@ -1,6 +1,6 @@
 // 14 nov
 
-// let n = 1;
+// let n = 18;
 
 // check if it is div by 5 or not
 
@@ -20,7 +20,7 @@
 //     console.log("odd");
 // }
 
-// Take two number check if their sum and product are same or not
+// Take two number and check if their sum and product are same or not
 
 // let a = 2
 // let b =3
@@ -51,29 +51,19 @@
 
 // take 3 digit number and check if it is palindrome or not
 
-// let n = 131
-
+// let n = 292
 // let firstDigit = n % 10;
-// let first2Digit = parseInt(n/10);
-// let midDigit = first2Digit % 10;
 // let lastDigit = parseInt(n/100)
-
-// let reverse = firstDigit*100 + midDigit*10 + lastDigit;
-// // or
-//  let reverseNum = firstDigit == lastDigit
-
-// if (n == reverseNum){
+// if (firstDigit==lastDigit){
 //     console.log("palindrome")
 // }
 // else{
 //     console.log("not palindrome")
 // }
 
-
 // take 3 number and print the biggest number
-
 // let a = 10
-// let b = 10
+// let b = 30
 // let c = 20
 
 // if(a>b && a>c){
@@ -99,10 +89,9 @@
 // }
 
 // take a number. print "hello" if divisible by 3 , print "world" if divisible by 5 , print 
-//"hello world" divisible by 15
+//"hello world" if divisible by 15
 
-// let n = 10
-
+// let n = 45
 // if(n%3==0 && n%5==0){
 //     console.log("hello world")
 // }
@@ -125,16 +114,17 @@
 //     console.log("world")
 // }
 
+
 // convert 24 hr to 12 time
 
-// let hr = 23
+// let hr = 22
 // let min = 45
 
 // if (hr>12){
 //     console.log(hr-12, min, "PM")
 // }
 // else if (hr==0){
-//     console.log(12,min,"AM")
+//     console.log(hr,min,"AM")
 // }
 // else if(hr<12){
 //     console.log(hr,min,"AM")
@@ -143,7 +133,6 @@
 
 //     console.log(hr, min,"PM")
 // }
-
 
 
 // bijli ka bill
@@ -169,7 +158,6 @@ else if( unit<=150){
     else{
         console.log("bill is", bill + 0.2*bill)
     }
-   
 }
 else if(unit<=250){
     bill = 250 + (unit - 150)*3;
