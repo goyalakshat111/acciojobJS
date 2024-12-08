@@ -2,19 +2,20 @@
 
 // local and global variable
 
-let a = 100
-console.log(a)
-if(2>1){
-     a = 500                                // anyone can acess and change global variable
-    console.log(a)
-}
-console.log(a)
+// let a = 100
+// console.log(a)
+// if(2>1){
+//      a = 500                                // anyone can acess and change global variable
+//     console.log(a)
+// }
+// console.log(a)
 
 // nested if
 
-// take a 2 digit number
+// ques - Take a 2 digit number, if it is even, find sum of digit and check if it is divisible by 5.
+// If it is odd, find product and check if it is divisible by 8
 
-// let num = 82
+// let num = 83
 // let firstDigit = num%10
 // let lastDigit = parseInt(num/10)
 
@@ -37,8 +38,8 @@ console.log(a)
 //     }
 // }
 
-// take 3 angles of triangle and if angles form valid triangle then check if it is isoscels or not
 
+// take 3 angles of triangle and if angles form valid triangle then check if it is isoscels or not
 // let a = 60
 // let b =60
 // let c = 60
@@ -55,38 +56,36 @@ console.log(a)
 //     console.log("Not valid triangle")
 // }
 
+
 // find second biggest number from three number
+// let p = 187
+// let q = 200
+// let r = 39
 
-let p = 187
-let q = 200
-let r = 39
-
-if(p>q && p>r){
-    console.log("p is biggest")
-    if(q>r){
-        console.log("q is second biggest")
-    }
-    else{
-        console.log("r is second biggest")
-    }
-}
-else if(q>r && q>p){
-    console.log("q is biggest")
-    if(p>r){
-        console.log("p is second biggest")
-    }
-    else{
-        console.log("r is second biggest")
-    }
-
-}
-else if(r>q && r>p){
-    console.log("r is biggest")
-    if(q>p){
-        console.log("q is second biggest")
-    }
-    else{
-        console.log("p is second biggest")
-    }
-
-}
+// if(p>q && p>r){
+//     console.log("p is biggest")
+//     if(q>r){
+//         console.log("q is second biggest")
+//     }
+//     else{
+//         console.log("r is second biggest")
+//     }
+// }
+// else if(q>r && q>p){
+//     console.log("q is biggest")
+//     if(p>r){
+//         console.log("p is second biggest")
+//     }
+//     else{
+//         console.log("r is second biggest")
+//     }
+// }
+// else if(r>q && r>p){
+//     console.log("r is biggest")
+//     if(q>p){
+//         console.log("q is second biggest")
+//     }
+//     else{
+//         console.log("p is second biggest")
+//     }
+// }
