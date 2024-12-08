@@ -1,4 +1,5 @@
 // 19 nov
+
 // while loop
 
 // take a number and print its digits
@@ -15,8 +16,7 @@
 
 // for(let i=n;i>0; i= parseInt(i/10)){
 //     let digit = i%10
-//     console.log(digit)
-   
+//     console.log(digit)  
 // }
 
 // count number of digits in a given number
@@ -41,9 +41,9 @@
 // }
 // console.log(rev)
 
-//checkPalindrome
+// checkPalindrome
 
-// let n = 121
+// let n = 12321
 // let oldNum = n
 // let rev =0
 // while(n!=0){
@@ -51,7 +51,6 @@
 //     rev = rev*10 +digit
 //     n = parseInt(n/10)
 // }
-
 // if(oldNum == rev){
 //     console.log("Palindrome")
 // }
@@ -69,7 +68,6 @@ let divisor = 1
 while(a/divisor>=10){
     divisor*=10
 }
-
 while(divisor>0){
     let digit = parseInt(a/divisor);
     console.log(digit)
