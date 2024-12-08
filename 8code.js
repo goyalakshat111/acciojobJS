@@ -187,7 +187,9 @@
 //     console.log(s2+str)
 //   }
 
-// function --> don't repeat yourself
+// ***************************************************************************
+
+// function --> reusable block of code designed to perform a specific task
 
 // using console.log inside function
 
@@ -210,12 +212,12 @@
 
 // return se function ke bahar aa jate
 
-// function hello(){
-//   console.log('A')
-//   return 100;
-//   console.log('B')
-// }
-// hello();                // return ke baad function se bahar aa jate aage ka kuch nhi chalega
+function hello(){
+  console.log('A')
+  return 100;
+  console.log('B')
+}
+hello();                // return ke baad function se bahar aa jate aage ka kuch nhi chalega
 
 
 
