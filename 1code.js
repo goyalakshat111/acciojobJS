@@ -1,6 +1,6 @@
 // 11 nov
 
-// JS has 3 primitive datatype
+// JS has 3 most used primitive datatype
 // Number - for both integer and float
 // String - for both character and string
 // Boolean - true, false
@@ -15,12 +15,12 @@
 // sum = a+b
 // console.log(`Value of ${a} and ${b} is ${sum}`)         // backtick 
 
-// to find datatype, use typeof function
+// to find datatype, use typeof function (returns a string)
 // let a = 6
 // console.log(a, typeof a)
 
 
-// To put decimal after number, use toFixed() function
+//To put decimal after number, use toFixed() function & To remove decimal, use parseInt()
 // let p = 100000
 // let r = 10
 // let t =5
@@ -41,8 +41,14 @@
 // console.log(Math.floor(i))
 
 // Use Math.ceil() to find maximum value after removing decimal 
-let j= 2.1
-console.log(Math.ceil(j))
+// let j= 2.1
+// console.log(Math.ceil(j))
 
 // Use Math.min(n1,n2,n3,n4) to find minimum value in n arguments
 // Use Math.max(n1,n2,n3,n4) to find maximum value in n arguments
+
+let n1 = 1, n2 = 2, n3 = 3, n4 = 4;
+
+let max = Math.max(n1,n2,n3,n4);
+let min = Math.min(n1,n2,n3,n4);
+console.log(max,min);
