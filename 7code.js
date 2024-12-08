@@ -2,18 +2,18 @@
 
 // break and continue
 
-// ques 1
-
+// let j=1
 // while(j<=5){
 //     if(j==4){
-//         continue
+//         continue;
 //     }
 //     console.log(j)
 //     j++
 // }
 
-// output - infinite loop
+// output - 1 2 3 ...(infinite loop)
 
+// **************************************************************************
 
 // Basics of string
 
@@ -26,18 +26,21 @@
 // arithmetic operator in string -----> +
 
 // string + string = string
+
 // let s1 = "10"
 // let s2 = "20"
 // let ans = s1+s2
 // console.log(ans)
 
 // string + num = string
+
 // let s1 = "akshat"
 // let s2 = 10
 // let ans = s1+s2
 // console.log(ans)
 
 // num + boolean = num
+
 // let s1 = 10
 // let s2 = true
 // let ans = s1+s2
@@ -56,9 +59,10 @@
 
 
 // Number to String
+
 // let a = 12
-// let str = String(a)
-// let str2 = a.toString()
+// let str = String(a)                                // approach 1
+// let str2 = a.toString()                            // approach 2
 
 // console.log(str, typeof str)
 // console.log(str2, typeof str2)
@@ -66,14 +70,13 @@
 // string to number
 
 // let str = "12"
-
 // let n = Number(str)
 // let n1 = +str
 // let n2 = str-0
 
 // console.log(n,typeof n)
-// console.log(n,typeof n1)
-// console.log(n,typeof n2)
+// console.log(n1,typeof n1)
+// console.log(n2,typeof n2)
 
 // space is also a character
 
@@ -85,11 +88,11 @@
 
 // how to print number in a same line
 
-let str =""
-for(let i=1;i<=5;i++){
-    str = str+i
-}
-console.log(str)
+// let str =""
+// for(let i=1;i<=5;i++){
+//     str = str+i
+// }
+// console.log(str)
 
 
 
