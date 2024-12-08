@@ -2,31 +2,26 @@
 
 // let n = 79
 
+// logic - last digit of a number
 
-// // q1
 // lastDigit = n%10
 // console.log(lastDigit)
 
-// // logic - firstDigit of 2 digit number
+// logic - firstDigit of 2 digit number
 
 // let firstNum = parseInt(n/10)
 // console.log(firstNum)
-// // or 
-// let firstDigit = (n - lastDigit )/ 10                // 79 = 7 * 10 + 9
-// console.log(firstDigit)
 
-// // q2
+// logic - reverse 2 digit number
 
 // let reverse = lastDigit * 10 + firstDigit
 // console.log(reverse)
 
+//******************************************************************** 
 
-
-// // q3
-// // reverse of 3 digit number
+// logic - reverse of 3 digit number
 
 // let num  = 189
-
 // let lastDigit = num % 10
 // let first2Digit = parseInt(num/10)
 // let midDigit = first2Digit % 10
@@ -34,12 +29,11 @@
 // let reverseNum = lastDigit*100+ midDigit*10 + firstDigit
 // console.log(reverseNum)
 
+// *************************************************************
 
-
-// q4
 // swap values
-let a =10
-let b = 20
+// let a =10
+// let b = 20
 
 // using third variable
 // let temp = a
@@ -64,8 +58,7 @@ let b = 20
 // ==  equal to operator (checks value only, not datatype)
 // ===  triple equal to operator (checks both value and datatype)
 
-
-// // Logical operator && (and) , || (or), !(not)
+// Logical operator &&(and), ||(or), !(not)
 
 // // short circuiting in AND
 // 10 < 5 && console.log("hello") // first statement is false so won't move forward, nothing will print
