@@ -27,7 +27,7 @@
 // he is a good actor"
 // console.log(str)
 
-// let str1 = "Ram is\n danicng"
+// let str1 = "Ram is\n dancing"
 // console.log(str1)
 
 // let str2 = ` Ram is
@@ -157,12 +157,12 @@
 
 // but we can't change string
 // let str1 = 'hello';
-// str[0] = 'y';
+// str1[0] = 'y';
 // console.log(str1)             // hello 
 
 // replace - replace only one character
 // let str = 'kaka';
-// let ans = str.replace('k','p');
+// let str= str.replace('k','p');
 // console.log(ans)
 // console.log(str)
 
@@ -292,3 +292,5 @@
 // console.log(str.substring(2))    // llo
 // console.log(str.substring(2,5))  // llo
 // console.log(str.substring(5,2))  // llo
+
+
