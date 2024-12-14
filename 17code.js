@@ -48,19 +48,23 @@
 
 // ***********************************************************************
 
-// arithmetic
+// arithmetic operations
 
-// let s1 = "hello"
+// +
+// string + num = string
+// let s1 = "12"
 // let s2 = 12 
 // let ans = s1 + s2
-// console.log(ans, typeof ans) 
+// console.log(ans, typeof ans)  
 
 // -, *, /, %, **
-
+// string - num = num
 // let s1 = "45"
 // let s2 = 12
-// let ans = s1 * s2
+// let ans = s1 - s2
 // console.log(ans, typeof ans) 
+
+// *******************************************************************************
 
 // string to number
 
@@ -68,22 +72,26 @@
 // let ans = Number(str)
 // console.log(ans,typeof ans)
 
-// let str1 = 'hello'
-// let ans1 = Number(str1)
-// console.log(ans1, typeof ans1);
+// let str1 = '12'
+// let ans1 = str1-0
+// console.log(ans1,typeof ans1)
 
 // let str2 = '12'
 // let ans2 = + str2
 // console.log(ans2,typeof ans2)
 
+// let str3 = 'hello'
+// let ans3 = Number(str3)
+// console.log(ans3, typeof ans3);        // NaN number
+
+// ****************************************************************************
 
 // number to string
 
-// let n =56;
-
+// let n = 56;
 // let ans = String(n);
 // let ans1 = n.toString();
-// let ans2 = n +""
+// let ans2 = n + ""
 
 // console.log(ans, typeof ans)
 // console.log(ans1, typeof ans1)
@@ -93,6 +101,7 @@
 
 // let str = "hello_world"
 
+// length
 // let length = str.length;
 // console.log(length);
 
@@ -160,13 +169,13 @@
 // str1[0] = 'y';
 // console.log(str1)             // hello 
 
-// replace - replace only one character
+// replace() - replaces only one character from left
 // let str = 'kaka';
 // let str= str.replace('k','p');
 // console.log(ans)
 // console.log(str)
 
-//replaceAll - replaces all characters(version 17)
+//replaceAll() - replaces all characters(version 17)
 // let str = 'kaka';
 // let ans = str.replaceAll('k','p');
 // console.log(ans)
@@ -179,7 +188,7 @@
 //     if(t!='k'){
 //         ans +=t;
 //     }
-//     else if(t=='k'){
+//     else{
 //         ans+="p"
 //     }
 // }
@@ -189,12 +198,12 @@
 
 // ASCII Values
 
-// A-Z = 65-90
-// a-z = 97-122
-// "0"-"9" = 48-57
-// " " = 32
+// A-Z      = 65-90
+// a-z      = 97-122
+// "0"-"9"  = 48-57
+// " "      = 32
 
-// to find ascii value of character - charCodeAt
+// to find ascii value of character - charCodeAt(index)
 
 // let s="A";
 // console.log(s.charCodeAt(0))
@@ -202,11 +211,13 @@
 // let s1= 'hello'
 // console.log(s1.charCodeAt(2))
 
-// to find character from ascii value - fromCharCode
+// to find character from ascii value - String.fromCharCode(ascii_value)
 
 // let n = 122;
 // console.log(String.fromCharCode(n));
 
+
+// In JavaScript, when comparing strings it is done based on the Unicode values of the characters. 
 // ques- 
 // let s1='A';
 // let s2='a';
@@ -272,25 +283,38 @@
 
 // ******************************************************************
 
-// indexOf(character, starting index)
+// indexOf(character or string, starting index)
 
 // let str = 'akshat'
-// console.log(str.indexOf('a'))      //0
+// console.log(str.indexOf('a'))        //0
 // console.log(str.indexOf('a',2))      //4
+// console.log(str.indexOf('ksh'))      //1
+
+// lastIndexOf(character, starting index from last)
+// let str = 'akshat';
+// console.log(str.lastIndexOf('a'))
+// console.log(str.lastIndexOf('a',3))
 
 //slice - print left to right
 
 // let str = 'akshat';
 // console.log(str.slice(2))
+// console.log(str.slice(2,2))             //empty
 // console.log(str.slice(2,5))
-// console.log(str.slice(5,2))         // empty
+// console.log(str.slice(5,2))            // empty
 // console.log(str.slice(2,-2))
 
 
 //substring - doesn't support negative indexing
 // let str = 'hello'
 // console.log(str.substring(2))    // llo
+// console.log(str.substring(2,2))    // empty
 // console.log(str.substring(2,5))  // llo
 // console.log(str.substring(5,2))  // llo
 
+// substr(index,no.of values to print) - removed in new version
+// let str = "abhishek"
+// console.log(str.substr(3, 3))
+// console.log(str.substr(3))
+// console.log(str.substr(-3, 3))
 
