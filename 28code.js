@@ -1,5 +1,5 @@
 // 31 dec 2024
-// Matrix - nested array where size of each array is same (rectangle shape)
+// Matrix - nested array where size of each row is same (rectangle shape)
 
 // let arr = [
 //     [1,2],
