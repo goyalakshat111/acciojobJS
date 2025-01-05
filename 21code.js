@@ -66,7 +66,7 @@
 // let x = q(3)
 // console.log(x)
 
-// ques-
+// ques -
 // function sumOfEvenDigits(n,sum=0){
 //     if(n==0){
 //         return sum;
@@ -77,7 +77,7 @@
 //     }
 //     return sumOfEvenDigits(parseInt(n/10),sum)
 // }
-// let x = sumOfEvenDigits(3254)
+// let x = sumOfEvenDigits(3256)
 // console.log(x)
 
 // *******************************************************************
