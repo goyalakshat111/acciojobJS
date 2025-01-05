@@ -1,6 +1,6 @@
 // 10 dec
 
-//  <--------------------------------string questions---------------------->
+//  <--------------------------------string questions-1 ---------------------->
 
 //ques1- reverse the string
 // let str = 'akshat';
@@ -25,11 +25,10 @@
 
 
 //ques2- sum of digits using string
-// let n = 34125
+// let n = '34125'
 
-// let str = String(n)
 // let sum=0
-// for(let t of str){
+// for(let t of n){
 //     sum += +t
 // }
 // console.log(sum)
@@ -183,6 +182,6 @@
 // console.log(ans,ans1,ans2);
 
 // repeat()
-// let str = 'hello';
-// console.log(str.repeat(5))
-// console.log('*'.repeat(4))
+let str = 'hello';
+console.log(str.repeat(2))
+console.log('*'.repeat(5))
