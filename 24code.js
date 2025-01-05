@@ -6,10 +6,10 @@
 // undefined - When variable is declared but not initialized or when function doesn't return anything
 
 // let x;
-// console.log(x)
+// console.log(x);
 
-// function sum(){}
-// console.log(sum())
+// function sum(){};
+// console.log(sum());
 
 // not defined - It is reference type error, when variable doesn't exist ie. not declared
 
@@ -59,7 +59,7 @@
 // sort() method           Time Complexity  = O(nlogn)
 
 // string
-// let arr = ['apple','orange','banana','kiwi','grapes']
+let arr = ['apple','orange','banana','kiwi','grapes']
 
 // ascending order
 
