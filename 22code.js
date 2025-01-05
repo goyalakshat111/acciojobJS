@@ -81,11 +81,11 @@
 // let arr = [ 1,2,3,4,5]
 
 // function reverse(arr,i=0,nums=[]){
-//     if(i>=arr.length){
+//     if(i==arr.length){
 //         return nums;
 //     }
    
-//     nums = reverse(arr,i+1,nums)
+//     reverse(arr,i+1,nums)
 //     nums.push(arr[i])
 //     return nums
     
@@ -95,9 +95,9 @@
 
 // find the maximum element using recursion
 
-let arr = [ 1,5,2,7,4];
+let arr = [1,5,2,7,4];
 
-function maximumElement(arr,i=0,maxi=Number.MIN_VALUE){
+function maximumElement(arr,i=0,maxi=-Infinity) {
     if(i==arr.length){
         console.log(maxi)
         return;
