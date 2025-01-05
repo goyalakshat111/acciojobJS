@@ -1,7 +1,7 @@
-// 23 dec 
+// 23 dec
 // Searching
 
-// Linear Search - O(n) 
+// Linear Search - O(n)
 
 // let arr = [1,5,10,3,8,2]
 // let target = 80
@@ -89,7 +89,7 @@
 
 //     while(start<=end){
 //     let mid = parseInt(start+(end-start)/2);
-    
+
 //     if(target==arr[mid]){
 //        pos = mid
 //        end = mid-1
@@ -114,7 +114,7 @@
 
 //     while(start<=end){
 //     let mid = parseInt(start+(end-start)/2);
-    
+
 //     if(target==arr[mid]){
 //        pos = mid
 //        start = mid+1
@@ -140,7 +140,7 @@
 // function solution(arr,target){
 //     let start = 0
 //     let end = sortedArr.length-1
-    
+
 //     while(start<=end){
 //         let mid = Math.floor((start+end)/2);
 //         if(arr[mid]==target){
@@ -157,6 +157,34 @@
 //     }
 // console.log(solution(sortedArr,n))
 
+// ques - find element using binary search if size of sorted array is Infinity
 
-// ques - find element if size of array is Infinity
+let arr = [1, 3, 5, 7, 8, 10, 11, 12, 14, 17, 18, 19, 25];
+let target = 17;
 
+function element(arr, target) {
+  let start = 0;
+  let end = 1;
+  while (end < arr.length && target > arr[end]) {
+    start = end + 1;
+    end = (end + 1) * 2 - 1;
+  }
+  return binarySearch(arr, start, end, target);
+}
+
+function binarySearch(arr, start, end, target) {
+  while (start <= end) {
+    let mid = parseInt((start + end) / 2);
+    if (arr[mid] == target) {
+      return mid;
+    } else if (target > arr[mid]) {
+      start = mid + 1;
+    } else {
+      end = mid - 1;
+    }
+  }
+  return -1;
+}
+
+let x = element(arr, target);
+console.log(x);
