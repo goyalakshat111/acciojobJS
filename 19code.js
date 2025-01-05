@@ -5,7 +5,6 @@
 // ques- print each word in new line
 
 // let str = 'Ram is dancing';
-// console.log(str.split(' '))
 // console.log(str.replaceAll(" ","\n"));
 
 
@@ -75,7 +74,7 @@
 // let str = "Zakir";
 // let res=''
 // for(let t of str){
-//     let charCode=  t.charCodeAt() +1
+//     let charCode=  t.charCodeAt(0) +1
 //     if(charCode==91 || charCode==123){
 //         charCode = charCode-26
 //     }
@@ -90,15 +89,14 @@
 // let k = 1000;
 // let res=''
 // for(let t of str){
+//     charCode = t.charCodeAt(0) + k%26
 //     if(t>='a'&& t<='z'){
-//         charCode = t.charCodeAt(0) + k%26
 //         if(charCode>122){
 //             let diff = charCode-122
 //             charCode = 96 +diff
 //         }
 //     }
 //     else if(t>='A' && t<='Z'){
-//         charCode = t.charCodeAt(0)+k%26
 //         if(charCode>90){
 //             let diff= charCode-90
 //             charCode= 64 + diff
@@ -142,22 +140,21 @@
 //      else {
 //          return "same"
 //      }
-
 // }
 
 
 // ques-  print all substrings of string that are of length greater than 1
 
-// let str = "Ram";
+let str = "Ram";
 
-// for(let i=0;i<str.length;i++){
-//     for(let j=i;j<str.length;j++){
-//         let s = str.slice(i,j+1)
-//         if(s.length>1){
-//             console.log(s)
-//         }
-//     }
-// }
+for(let i=0;i<str.length;i++){
+    for(let j=i;j<str.length;j++){
+        let s = str.slice(i,j+1)
+        if(s.length>1){
+            console.log(s)
+        }
+    }
+}
 
 
 

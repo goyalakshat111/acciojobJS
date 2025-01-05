@@ -4,26 +4,27 @@
 
 // map - map is an object in js.
 // stored in key-value pair
-// key can be any datatype unlike object 
+// key can be of any datatype 
 // There is ordered map in js which maintains insertion order
 // There is no unordered map in js but can be done using a plain object
 
 // Where to use map: if in any array question, we are searching element then we can try to replace that
 // searching by map as it is O(1) in map
 
-// let map = new Map();
+let map = new Map();
 
 // .set() method to add key-value pair
-// map.set('apple',5);
-// map.set('plum',8);
-// map.set('banana',4);
-// map.set('grape',10);
-// map.set('apple',10);
+
+map.set('apple',5);
+map.set('plum',8);
+map.set('banana',4);
+map.set('grape',10);
+map.set('apple',10);
 
 // print map
 // console.log(map)
 
-// .get() method to fetch values
+// .get('key') to print value of key
 // console.log(map.get('apple'))
 
 // check if key is present or not
@@ -56,7 +57,7 @@
 
 //ques- count of unique values from array
 
-// let arr = [ 1,2,1,3,4,1,5,2,4,10];
+let arr = [ 1,2,1,3,4,1,5,2,4,10];
 
 // using array
 // TC = O(n^2)
@@ -68,17 +69,15 @@
 //         brr.push(t)
 //     }
 // }
-// console.log(brr)
+// console.log(brr.length)
 
 // using set
 // TC = O(n)
 // SC = O(n)
 
-// let set = new Set();
-// for(let t of arr){
-//     set.add(t)
-// }
-// console.log(set)
+// let set = new Set(arr);
+// let brr=[...set]
+// console.log(brr.length)
 
 // using map
 // TC = O(n)
@@ -97,21 +96,22 @@
 // console.log(map);
 
 
-//ques-given array of integers, return indices of two numbers such that they add upto a specific target
-let nums = [1,2,4,15,4,10,6,13,9];
-let sum = 8;
+//ques- given array of integers, return indices of two numbers such that they add upto a specific target
+// let nums = [1,2,4,15,4,10,6,13,9];
+// let sum = 8;
 
 // Approach1 - by nested loop TC = O(n^2), SC = O(1)
 
-for(let i=0;i<nums.length-1;i++){
-    for(let j=i+1;j<nums.length;j++){
-       if(nums[i]+nums[j]==sum){
-        console.log(nums[i],nums[j]);
+// for(let i=0;i<nums.length-1;i++){
+//     for(let j=i+1;j<nums.length;j++){
+//        if(nums[i]+nums[j]==sum){
+//         console.log(nums[i],nums[j]);
         
-       }
-    }
-}
+//        }
+//     }
+// }
 
 // Approach2 - by using map  TC = O(n), SC = O(n)
+
 
 

@@ -36,7 +36,6 @@
 //          the 
 
 //          floor
-
 // `
 // console.log(str2)
 
@@ -58,12 +57,17 @@
 // console.log(ans, typeof ans)  
 
 // -, *, /, %, **
-// string - num = num
+// string - num = number
 // let s1 = "45"
 // let s2 = 12
 // let ans = s1 - s2
 // console.log(ans, typeof ans) 
 
+// string-num = NaN
+// let s1='hello'
+// let s2= 5;
+// let ans = s1-s2;
+// console.log(ans,typeof ans)
 // *******************************************************************************
 
 // string to number
@@ -108,7 +112,7 @@
 // index
 // console.log(str[0])                       // 0th index value
 // console.log(str[100])                       // undefined
-// console.log(str[length-1])               // last index value
+// console.log(str[str.length-1])               // last index value
 
 // charAt
 // console.log(str.charAt(0))
@@ -132,7 +136,7 @@
 
 // for-in loop    - not preferred to use
 // for(let key in str){
-//     console.log(key)
+//     console.log(str[key])
 // }
 
 // *************************************************************************
@@ -171,7 +175,7 @@
 
 // replace() - replaces only one character from left
 // let str = 'kaka';
-// let str= str.replace('k','p');
+// let ans= str.replace('k','p');
 // console.log(ans)
 // console.log(str)
 
@@ -310,11 +314,11 @@
 // console.log(str.substring(2))    // llo
 // console.log(str.substring(2,2))    // empty
 // console.log(str.substring(2,5))  // llo
-// console.log(str.substring(5,2))  // llo
+// console.log(str.substring(5,2))  // llo       (changes it internally to str.substring(2,5))
 
 // substr(index,no.of values to print) - removed in new version
-// let str = "abhishek"
-// console.log(str.substr(3, 3))
-// console.log(str.substr(3))
-// console.log(str.substr(-3, 3))
+let str = "abhishek"
+console.log(str.substr(3, 3))
+console.log(str.substr(3))
+console.log(str.substr(-3, 3))
 

@@ -86,7 +86,11 @@
 
 // hello(x1,greet())           // argument
 
-// output - error
+// output - 
+// hello
+// 100
+// 5000
+// TypeError
 
 // *********************************************************************
 
@@ -156,8 +160,9 @@
 
 // ******************************************************************
 
-// Higher Order Function (HOF) -->  a higher-order function is a function that takes one or
-//  more functions as arguments or returns a function or both
+// Higher Order Function (HOF) -->  A higher-order function is a function that takes functions 
+// as arguments or returns a function(anonymous or IIFE) or does both taking arguments
+// and returning a function.
 
 // example 1 - HOF hello taking callback greet as argument 
 
@@ -187,7 +192,7 @@
 
 // bye()()
 
-// example 3 - HOF bye returning a function, that function is also returning another function
+//example3 -HOF bye returning a function(IIFE), that function also returning another function(anonymous)
 
 // function bye(){
 //     console.log('i am inside bye')
@@ -339,7 +344,7 @@
 
 // ***********************************************************************************
 
-// ques - 
+// ques - find array of name of sellers whose profit<loss
 
 let sellers = [
     {id:1, name:'Ramesh', profit:1000, loss:500},
