@@ -33,8 +33,9 @@
 // console.log(parseInt(ci))         // to remove decimal and keep only integer
 
 
-
-// To round off values, use Math.round() 
+// To round off values to the nearest integer, use Math.round() 
+// let x = 2.56;
+// console.log(Math.round(x));
 
 // Use Math.floor() to find minimum value after removing decimal 
 // let i= 2.99
