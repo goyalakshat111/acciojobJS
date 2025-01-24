@@ -4,7 +4,7 @@
 
 // logic - last digit of a number
 
-// lastDigit = n%10
+// let lastDigit = n%10
 // console.log(lastDigit)
 
 // logic - firstDigit of 2 digit number
