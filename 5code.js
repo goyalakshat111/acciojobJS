@@ -29,16 +29,17 @@
 
 // approach-1
 
-// let a = 110
+// let num=101;
+
 // let ans=true;
-// if(a==2){
+// if(num==2){
 //   ans = true
 // }
-// if(a<2){
+// if(num<2){
 //   ans = false;
 // }
-// for(let i=2;i<a;i++){
-//   if(a%i==0){
+// for(let i=2;i<num;i++){
+//   if(num%i==0){
 //     ans = false
 //     break;
 //   }
@@ -66,4 +67,4 @@
 //   console.log('Non-prime')
 // }
 
-// approach -3 To optimize, run loop from 0 to Math.sqrt(n)
+// approach -3 To optimize, run loop from 1 to Math.sqrt(n) and if count==1 then prime
