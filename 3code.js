@@ -34,14 +34,14 @@
 
 // Take 2 digit number and check if it is palindrome or not
 
-// let n = 21
+// let n = 22
 
-// temp= n%10;
-// n = parseInt(n/10);
+// let lastDigit= n%10;
+// let firstDigit= parseInt(n/10);
 
-// reverse = n*10 + temp;
+// let reverse = lastDigit*10 + firstDigit;
 
-// if(n== reverse){
+// if(n == reverse){
 //     console.log("it is palindrome")
 // }
 // else{
@@ -79,7 +79,7 @@
 
 //take a number and check if it is decimal or not
 
-// let num = 10.0005
+// let num = 10.0005;
 // let n = parseInt(num)
 // if(num == n){
 //     console.log("not decimal")
@@ -92,17 +92,6 @@
 //"hello world" if divisible by 15
 
 // let n = 45
-// if(n%3==0 && n%5==0){
-//     console.log("hello world")
-// }
-// else if(n%5==0 ){
-//     console.log("world")
-// }
-// else if(n%3==0){
-//     console.log("hello ")
-// }
-
-// or
 
 // if(n%15 ==0){
 //     console.log("hello world")
@@ -115,7 +104,7 @@
 // }
 
 
-// convert 24 hr to 12 time
+// convert 24 hr to 12 hr time
 
 // let hr = 22
 // let min = 45
