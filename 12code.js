@@ -58,11 +58,10 @@
 //     console.log(t)
 // }
 
-
 // ques - Sort 0 and 1 using two pointer
-// let arr = [0,1,1,0,0,0,1,1,0,1]
-// let i=0
-// let j = arr.length-1
+// let arr = [0,1,1,0,0,0,1,1,0,1];
+// let i= 0;
+// let j = arr.length-1;
 
 // while(i<=j){
 //     if(arr[i]==0){
@@ -122,7 +121,7 @@
 
 // approach 1
 // let arr = [1,2,3,4,5]
-// let max = arr[0]                          // or let max = -Infinity or let max = Number.MIN_VALUE
+// let max = arr[0]                          // or let max = -Infinity 
 // for(let i=0;i<arr.length;i++){
 //     if(arr[i]>max){
 //         max = arr[i]
@@ -157,6 +156,7 @@
 
 // index Of:
 
+// print all vowels present in array alphabet
 // let alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
 
 // for(let t of alphabet){
@@ -170,8 +170,9 @@
 //     }
 // }
 
-// let vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+// or 
 
+// let vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 
 // for(let t of alphabet){
 //     //   if(vowels.indexOf(t)>=0){
@@ -185,7 +186,7 @@
 
 // let arr = [1,2,3,4,5,6]
 
-// approach 1
+// // approach 1
 // for(let i=0;i<arr.length;i++){
 //     let sum =0
 //     for(let j=0;j<arr.length;j++){
@@ -221,41 +222,41 @@
 
 
 // ques -->  merge array1(sorted) and array2(sorted) such that merge array is sorted
-let a1 = [1,3,5,7,9]
-let a2 = [2,4]
-let a3 = [] 
+// let a1 = [1,3,5,7,9]
+// let a2 = [2,4]
+// let a3 = [] 
 
-let i=0
-let j=0
-let k=0
-let len1 = a1.length
-let len2 = a2.length
-while(i<len1 && j<len2){
-    if(a1[i]<a2[j]){
-        a3[k] = a1[i]
-        i++
-        k++
-    }
-    else{
-        a3[k] = a2[j]
-        j++
-        k++
-    }
-}
+// let i=0
+// let j=0
+// let k=0
+// let len1 = a1.length
+// let len2 = a2.length
+// while(i<len1 && j<len2){
+//     if(a1[i]<a2[j]){
+//         a3[k] = a1[i]
+//         i++
+//         k++
+//     }
+//     else{
+//         a3[k] = a2[j]
+//         j++
+//         k++
+//     }
+// }
 
-// second array exhaust ho gya but element remain in first array
-while(i<len1){
-    a3[k] = a1[i]
-    i++
-    k++
-}
-// first array exhaust ho gya but element remain in second array
-while(j<len2){
-    a3[k] = a2[j]
-    j++
-    k++
-}
+// // second array exhaust ho gya but element remain in first array
+// while(i<len1){
+//     a3[k] = a1[i]
+//     i++
+//     k++
+// }
+// // first array exhaust ho gya but element remain in second array
+// while(j<len2){
+//     a3[k] = a2[j]
+//     j++
+//     k++
+// }
 
-console.log(a3)
+// console.log(a3)
 
 
