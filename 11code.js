@@ -202,13 +202,13 @@
 //indexOf(element, starting index[if not mention then default is 0])
 // lastIndexOf(element, piche se starting index )
 
-// let arr = ['a','c','c','i','o','j','o','b']
+let arr = ['a','c','c','i','o','j','o','b']
 // console.log(arr.indexOf('c'))  // will give first index of c from left
 // console.log(arr.indexOf('o',5)) // will give index of o from 5 index
 // console.log(arr.indexOf('z'))   // if element not present then it'll give -1
 
 // console.log(arr.lastIndexOf('c'))    // last index of c - 2
-// console.log(arr.lastIndexOf('o',5))    // last index of o - 6
+console.log(arr.lastIndexOf('o',5))    // last index of o - 4
 
 // spread operator vs concat() method  - used to merge arrays
 // The concat() method is specifically designed for arrays. Slightly faster than spread 
