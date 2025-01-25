@@ -150,11 +150,13 @@
 
 // const variable
 
-// const with Primitive Datatypes - can't be reassigned
+// const with Primitive Datatypes - must be initialized and declared in same line
 
 // const a;                   //Syntax error - must be declared and initialized in same line
 
-// const b = 10;
+// const b = 10;              // correct 
+
+// const with Primitive Datatypes - can't be redeclared
 
 // const c = 10               // correct
 // c = 10                     // Type Error - we can not reassign const variable
@@ -243,16 +245,16 @@
 
 
 // ques - 
-let cart = {
-    owner:"Akshat",
-    items:[
-        {name:"laptop",price:5000,quantity:5},
-        {name:"mouse",price:2000,quantity:0},
-        {name:"keyboard",price:6000,quantity:2},
-        {name:"usb",price:1000,quantity:0},
-        {name:"monitor",price:500,quantity:10},
-    ]
-}
+// let cart = {
+//     owner:"Akshat",
+//     items:[
+//         {name:"laptop",price:5000,quantity:5},
+//         {name:"mouse",price:2000,quantity:0},
+//         {name:"keyboard",price:6000,quantity:2},
+//         {name:"usb",price:1000,quantity:0},
+//         {name:"monitor",price:500,quantity:10},
+//     ]
+// }
 
 // 1.delete all items whose quantity is 0           
 
@@ -267,10 +269,10 @@ let cart = {
 
 // 2.find total stock price
 
-let sum =0;
-let arr = cart.items;
-for(let i=0;i<arr.length;i++){
-    sum += (arr[i].price *arr[i].quantity)
-}
-console.log(sum);
+// let sum =0;
+// let arr = cart.items;
+// for(let i=0;i<arr.length;i++){
+//     sum += (arr[i].price *arr[i].quantity)
+// }
+// console.log(sum);
 
