@@ -3,9 +3,9 @@
 // Searching
 
 // ques - check if element is present or not
-
 // let arr = [10,20,30,90,50]
 // let target=40
+
 // let flag = false
 // for(let t of arr){
 //     if(t==target){
@@ -60,7 +60,7 @@
 //     console.log(t)
 // }
 
-// to delete single element
+// to delete single element, use delete(element) method
 // console.log(s.delete(2))                    // return true if set is not empty after deleting element           
 
 // to delete all element
@@ -83,7 +83,6 @@
 
 // for(let i=0;i<arr.length-2;i++){
 //     let subarray =arr.slice(i,i+3)
-
 //     let set = new Set(subarray)
 //     let subArraysize = subarray.length
 //     let setSize = set.size
