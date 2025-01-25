@@ -7,7 +7,7 @@
 //     'mango':20,
 //     'x':30,
 //     'y':40,
-//     'mango':40,                                    // updated value of mango to 40
+//     'mango':50,                                    // updated value of mango to 40
 // }
 
 // console.log(obj,typeof obj)
@@ -17,7 +17,7 @@
 // console.log(obj.z)                           // undefined because there is no key z present
 
 // add values
-// obj.t = '60'
+// obj.t = 60
 // console.log(obj)
 
 // update values
@@ -26,7 +26,7 @@
 
 // delete key-value pair
 
-// delete obj['x']                                     // or         delete obj.x
+// delete obj['x']                                     // or    delete obj.x
 // console.log(obj)
 
 // *************************************************************************
@@ -233,6 +233,7 @@
 //     console.log('key is not present')
 // }
 
+// ************************************************************************************
 
 // objects
 
@@ -259,6 +260,7 @@
 // // or
 // console.log(obj['e']['y'])
 
+// ************************************************************************************
 
 // destructuring
 
@@ -281,7 +283,7 @@
 //     a:10,
 //     b:20,
 //     c:30
-// }
+// };
 
 // normally
 
@@ -290,8 +292,8 @@
 // let z = obj.c
 
 // destructuring
-// let {a:x,b:y,c:z} = obj
-// console.log(x,y,z)
+// let {a:x,b:y,c:z} = obj;
+// console.log(x,y,z);
 
 // let {a:x,b:y} = obj
 // console.log(x,y)
@@ -311,17 +313,17 @@
 
 // destructuring using shorthand
 
-let obj = {
-    a:10,
-    b:20,
-    c:30
-}
+// let obj = {
+//     a:10,
+//     b:20,
+//     c:30
+// }
 
-// //normally
-// //  leta = obj.a
-// //  let b = obj.b
-// //  let c = obj.c
+//normally
+//  leta = obj.a
+//  let b = obj.b
+//  let c = obj.c
 
-// // destructuring
-let {a,b,c} = obj
-console.log(a,b,c)
+// destructuring
+// let {a,b,c} = obj
+// console.log(a,b,c)
