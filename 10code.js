@@ -13,7 +13,7 @@
     
 // }
 // console.log(a)
-// // console.log(b)                     // error - b is not defined - can't access outside local scope
+// // console.log(b)            // Reference error: b is not defined - can't access outside local scope
 
 //***************************************************************** 
 
@@ -66,14 +66,13 @@
 
 // Hoisting in let
 
-// // console.log(a)       // error - can't access a before initialization (temporal dead zone)
+// // console.log(a)       // Reference error: can't access 'a' before initialization (temporal dead zone)
 // let a = 100
 
 // function hello(){
 //     function display(){
 //         console.log(age)
 //     }
-
 //     let age =10
 //     display()
 // }
@@ -84,9 +83,8 @@
 //     function display(){
 //         console.log(age)
 //     }
-
 //     display()
-//      let age =10
+//     let age =10
 // }
 // hello()                          // can't acess age before initialization
 
@@ -109,6 +107,7 @@
 // }
 // console.log(a)  // 100
 
+// ************************************************************************************************
 
 // function
 
@@ -122,12 +121,11 @@
 // function print(a,b){
 //     a = 1000
 //     b = 2000
-//     console.log(a,b)       // 1000,2000
+//     console.log(a,b)       
 // }
 // let a = 100
 // let b = 200
-// print(a,b)
-// console.log(a,b)      // 100,200
+// print(a,b)               // 1000,2000
 
 // ******************* Ternary ***************************
 // condition?    :
