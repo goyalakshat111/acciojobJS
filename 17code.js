@@ -15,7 +15,7 @@
 
 // let name = 'akshat';
 // console.log(name + " is dancing on the floor")          
-// console.log(name, "is dancing on the floor")            //space is given by comma, we don't need to care
+// console.log(name, "is dancing on the floor")        //space is given by comma, we don't need to care
 // console.log(`${name} is dancing on the floor`)
 
 
@@ -185,7 +185,7 @@
 // console.log(ans)
 // console.log(str)
 
-// replaceAll without using replaceAll
+// replaceAll without using replaceAll()
 // let str =  'kaka';
 // let ans ='';
 // for(let t of str){
@@ -287,10 +287,11 @@
 
 // ******************************************************************
 
-// indexOf(character or string, starting index)
+// indexOf(character or string, starting index) - if element doesn't exist then return -1
 
 // let str = 'akshat'
 // console.log(str.indexOf('a'))        //0
+// console.log(str.indexOf('b'))        //-1
 // console.log(str.indexOf('a',2))      //4
 // console.log(str.indexOf('ksh'))      //1
 
