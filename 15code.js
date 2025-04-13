@@ -230,12 +230,12 @@
 // *************************************************************************
 
 // ques - who are eligible for voting
-// let arr = [
-//     {name:"A",age:10},
-//     {name:"B",age:20},
-//     {name:"C",age:30},
-//     {name:"D",age:72},
-// ]
+let arr = [
+    {name:"A",age:10},
+    {name:"B",age:20},
+    {name:"C",age:30},
+    {name:"D",age:72},
+]
 
 // for(let t of arr){
 //     if(t.age>=18){
@@ -243,8 +243,12 @@
 //     }
 // }
 
+// or
 
-// ques - 
+// arr.filter(value=>value.age>=18).map(value=>value.name).forEach(value=>console.log(value))
+
+// ques - (important)
+
 // let cart = {
 //     owner:"Akshat",
 //     items:[
