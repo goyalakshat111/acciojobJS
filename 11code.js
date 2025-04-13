@@ -176,7 +176,7 @@
 // }
 
 // ques - take a array and print all subarray
-// let arr = [10,20,30,40]
+let arr = [10,20,30,40]
 // all possible subarrays are :
 // 10                     (0,0)
 // 10 20                  (0,0) (0,1)
@@ -199,10 +199,23 @@
 // }
 // console.log(subArrays)
 
+// or
+
+// let subArrays = []
+// for(let i=0;i<arr.length;i++){
+//     let temp =[]
+//     for(let j=i;j<arr.length;j++){
+//         temp.push(arr[j])
+//         subArrays.push([...temp])
+//     }
+// }
+// console.log(subArrays)
+
+
 //indexOf(element, starting index[if not mention then default is 0])
 // lastIndexOf(element, piche se starting index )
 
-let arr = ['a','c','c','i','o','j','o','b']
+// let arr = ['a','c','c','i','o','j','o','b']
 // console.log(arr.indexOf('c'))  // will give first index of c from left
 // console.log(arr.indexOf('o',5)) // will give index of o from 5 index
 // console.log(arr.indexOf('z'))   // if element not present then it'll give -1
