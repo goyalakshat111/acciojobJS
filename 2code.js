@@ -62,6 +62,7 @@
 
 // // short circuiting in AND
 // 10 < 5 && console.log("hello") // first statement is false so won't move forward, nothing will print
+// 10 > 5 && console.log("hello") // first statement is true so will move forward and hello will print
 
 // // short circuiting in OR
 
