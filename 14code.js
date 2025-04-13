@@ -29,6 +29,23 @@
 // delete obj['x']                                     // or    delete obj.x
 // console.log(obj)
 
+// **************************************************************************
+
+// Optional chaining
+
+// let obj = {
+//     name:"Akshat",
+//     address:{
+//         city:"kailaras"
+//     }
+// }
+
+// console.log(user.address?.city);   // kailaras
+// console.log(user.contact?.phone); // Output: undefined (because `contact` is not defined)
+
+// console.log(obj.address.landmark); // will give error because landmark doesn't exist
+// console.log(obj.address?.landmark); // will give undefined 
+
 // *************************************************************************
 
 // let obj = {
@@ -67,7 +84,7 @@
 
 // ************************************************************************
 
-// for-in loop --> generally give index in array , here in object give keys
+// for-in loop --> traversal in object is done by for-in loop
 
 // let obj = {
 //     'a':10,
