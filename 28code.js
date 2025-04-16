@@ -158,7 +158,7 @@
 
 // for(let i=0;i<m1.length;i++){
 //     for(let j=0;j<m1[i].length;j++){
-//         if(i<j){
+//         if(i>j){
 //             console.log(m1[i][j])
 //         }
 //     }
