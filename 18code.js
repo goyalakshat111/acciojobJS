@@ -81,8 +81,8 @@
 
 // **************************************************************************** 
 
-// Math.random() => gives random value between 0 and 1
-// parseInt(Math.random()*20) ===> gives random integer value between 0 and 20
+// Math.random() => gives random value between 0 and 1 ie. [0,1)
+// parseInt(Math.random()*20) ===> gives random integer value between from 0 to 19
 
 //e.g.-  for 10 to 20
 // let x = 10 + parseInt(Math.random()*10);
@@ -116,7 +116,12 @@
 // for(let i=1;i<=2;i++){
 //     randomPassword += str[parseInt(Math.random()*str.length)]
 // }
-// console.log(randomPassword);
+
+// // we've got randomPassword, now we can shuffle it
+
+// let result = randomPassword.split("").sort(()=>Math.random()-0.5).join("")
+
+// console.log(result);
 
 // ques5- print star pattern as below
 // *
@@ -182,6 +187,6 @@
 // console.log(ans,ans1,ans2);
 
 // repeat()
-let str = 'hello';
-console.log(str.repeat(2))
-console.log('*'.repeat(5))
+// let str = 'hello';
+// console.log(str.repeat(2))
+// console.log('*'.repeat(5))
