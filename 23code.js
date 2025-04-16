@@ -93,7 +93,7 @@ let arr = [ 1,2,1,3,4,1,5,2,4,10];
 //         map.set(t,1)
 //     }
 // }
-// console.log(map);
+// console.log(map.size);
 
 
 //ques- given array of integers, return indices of two numbers such that they add upto a specific target
